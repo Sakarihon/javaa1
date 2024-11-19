@@ -26,8 +26,7 @@ button.addEventListener('click',function(evt){
     case 'div':
       result=num1/num2;
       break;
-    default:
-      result='virheellinen'
+
   }
   resultElement.innerText=`result ${result}`
 
